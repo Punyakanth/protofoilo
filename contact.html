@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="contact.png">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+    <h1><i>Provide u r details</i></h1>
+</header>
+<section>    
+<form action="reply.html">
+    <br>  
+        <label for="name"><b>Full Name : </b></label>
+        <input type="text" placeholder="ex:sunil" required id="name" name="name" onkeydown="return /[a-zA-Z ]/i.test(event.key)">
+        <br>
+        <br>
+        <label for="age"><b>Age :</b></label>
+        <input type="number" placeholder="ex:22" required id="age" name="age" maxlength="10" onkeydown="return /[0-9]/i.test(event.key)">
+        <br>
+        <br>
+        <label for="Dob"><b>Date of birth</b></label>
+        <input type="date" placeholder="ex:dd/mm/yyyy" required id="dob" name="dob">
+        <br>
+        <p><b>Present what are you doing..?</b></p>
+        <input type="radio" id="Present what u r doing" name="Present what u r doing" value="student">
+        <label for="Present what u r doing"><b>student</b></label><br>
+        <input type="radio" id="Present what u r doing" name="Present what u r doing" value="employed">
+        <label for="Present what u r doing"><b>employed</b></label><br>
+        <input type="radio" id="Present what u r doing" name="Present what u r doing" value="unemployed">
+        <label for="Present what u r doing"><b>unemployed</b></label><br>
+        <input type="radio" id="Present what u r doing" name="Present what u r doing" value="retired">
+        <label for="Present what u r doing"><b>retired</b></label>
+        <br>
+        <br>
+        <label for="reason"><b>What is the Reason to contact me : </b></label><br>
+        <textarea type="text" id="reason" name="reason" size="50px" height="50px" ></textarea>
+        <br>
+        <br>
+        <label for="phone number"><b>Phone number : </b></label>
+        <input type="tel" placeholder="ex:1236547892" required id="phone number" name="phone number" maxlength="10" onkeydown="return /[0-9]/i.test(event.key)">
+        <br>
+        <br>
+        <label for="email"><b>email_id : </b></label>
+        <input type="email" placeholder="ex:abc123@gmail.com" required id="email" name="email" >
+        <br>
+        <br>
+        <label for="address"><b>Address : </b></label>
+        <input type="text" placeholder="ex:Bangalure,Karnataka" required id="address" name="address maxlength="50" onkeydown="return /[0-9a-zA-Z.]/i.test(event.key)">
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+    </section> 
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    background-image: url("pro.jpg");
+    background-size: cover;
+}
+header{
+    text-align: center;
+    border: transparent;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    
+}
+section{
+    margin-right: 50.5% ;
+    margin-bottom:100px ;
+    margin-top: 10px;
+    border: transparent;
+    font-size: 20px;
+    
+
+}
+aside{
+    margin-left: 50.5%;
+    margin-bottom:100px ;
+    margin-top: -610px;
+    border: transparent;
+    font-size: 20px;
+    
+    
+}
+button {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(230, 57, 57);
+    
+    color: white;
+
+}
+button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    
+}

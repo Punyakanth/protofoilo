@@ -1,0 +1,47 @@
+body{
+    background-image: url("certi.avif");
+    background-size: cover;
+}
+header{
+    text-align: center;
+    border: transparent;
+    font-size: 25px;
+    color: blue
+}
+section{
+    margin-right: 50.5% ;
+    margin-bottom:100px ;
+    margin-top: 10px;
+    border: transparent;
+    font-size: 20px;
+    color:black;
+
+}
+aside{
+    margin-left: 50.5%;
+    margin-bottom:100px ;
+    margin-top: -770px;
+    border: transparent;
+    font-size: 20px;
+    color: black;
+}
+button {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(230, 57, 57);
+    transition:.4s ease;
+    color: white;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+    
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    
+}

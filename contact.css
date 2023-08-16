@@ -1,0 +1,15 @@
+body{
+    background-image: url(contactp.jpg);
+    background-size: cover;
+}
+section{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+header{
+    padding-left: 42%;
+    padding-top: 5%;
+}

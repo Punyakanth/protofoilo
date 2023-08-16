@@ -1,0 +1,72 @@
+body{
+    background-image: url("mainp.jpg");
+    background-size: cover;
+}
+header{
+    margin-right: 36%;
+    border: transparent;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0,0,0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #7a6cf1;
+    color: white;
+  }
+  nav{
+    margin-right: 36%;
+    border: transparent;
+    color: blue;
+    font-size: 20px;
+  }
+  section{
+    margin-right: 36%;
+    border: transparent;
+  }
+  button:hover{
+    background-color: rgb(16, 251, 216);
+    color: white;
+
+  }
+  button{
+    font-size: 20px;
+    color: black;
+    background-color: chocolate;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  section{
+    background: url("mains.avif");
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+  }
+  .bg{
+    background: url("edu2.jpg");
+    background-size: cover;
+  }
